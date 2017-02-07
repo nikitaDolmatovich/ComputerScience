@@ -6,7 +6,10 @@
 //  Copyright © 2017 User. All rights reserved.
 //
 
-import Foundation
+var fib = Fibonacci()
 
-print("Hello, World!")
+print("Number of fibonacci = \(fib.calcRecursion(itemCount: 10)) recursion")
+print("Number of fibonacci = \(fib.calcWithArray(itemCount: 10)) with array")
+print("Balance = \(fib.calcBalance(n:1000000000001 , m: 99999))")
+
 

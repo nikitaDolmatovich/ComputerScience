@@ -6,10 +6,10 @@
 //  Copyright © 2017 User. All rights reserved.
 //
 
+
 class Fibonacci {
     
     private var array = [Int](repeatElement(0, count: 100))
-    private var cache = [Int]()
     
     init() {}
     
@@ -33,6 +33,29 @@ class Fibonacci {
         return CLongLong(array[itemCount])
     }
     
+    public func calcBalance(n : Int, m : Int) -> Int64 {
+        var sequence = getPeriod(m: m)
+        let period = sequence.count - 2
+        let value = Int(n % period)
+        
+        return Int64(sequence[value])
+    }
+    
+    private func getPeriod(m : Int) -> [Int] {
+        var cache : [Int] = [Int]()
+        cache.append(0)
+        cache.append(1)
+        for i in 2..<m*6 {
+            cache.append((cache[i - 1] + cache [i - 2]) % m)
+            
+            if cache[i] == 1 && cache[i - 1] == 0 {
+                break
+            }
+        }
+        
+        return cache
+    }
+    
     private func testFirstOrSecond(itemCount : Int) -> Bool {
         if itemCount == 1 || itemCount == 2 {
             return true
@@ -40,5 +63,6 @@ class Fibonacci {
             return false
         }
     }
+    
     
 }
