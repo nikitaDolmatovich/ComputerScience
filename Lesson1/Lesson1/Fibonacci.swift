@@ -21,6 +21,24 @@ class Fibonacci {
         }
     }
     
+    public func calcCycle(itemCount : Int) -> Int {
+        var result : Int = 0
+        var first : Int = 1
+        var second : Int = 1
+        
+        if testFirstOrSecond(itemCount: itemCount) {
+            return 1
+        } else {
+            for _ in 2..<itemCount {
+                result = first + second
+                first = second
+                second = result
+            }
+            return result
+        }
+        
+    }
+    
     public func calcWithArray(itemCount : Int) -> CLongLong {
         if array[itemCount] == 0 {
             if testFirstOrSecond(itemCount: itemCount) {
