@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Lesson2
 {
-    class Program
+    public class Sheduler
     {
-        static void Main(string[] args)
-        {
-        }
+        public List<Event>
     }
 }
