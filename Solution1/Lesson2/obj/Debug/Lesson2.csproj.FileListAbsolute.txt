@@ -1,1 +1,5 @@
 D:\ComputerScience\Solution1\Lesson2\bin\Debug\Lesson2.exe.config
+D:\ComputerScience\Solution1\Lesson2\bin\Debug\Lesson2.exe
+D:\ComputerScience\Solution1\Lesson2\bin\Debug\Lesson2.pdb
+D:\ComputerScience\Solution1\Lesson2\obj\Debug\Lesson2.exe
+D:\ComputerScience\Solution1\Lesson2\obj\Debug\Lesson2.pdb

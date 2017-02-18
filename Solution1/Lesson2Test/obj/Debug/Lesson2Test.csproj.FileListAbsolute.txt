@@ -1,0 +1,8 @@
+D:\ComputerScience\Solution1\Lesson2Test\bin\Debug\Lesson2Test.dll
+D:\ComputerScience\Solution1\Lesson2Test\bin\Debug\Lesson2Test.pdb
+D:\ComputerScience\Solution1\Lesson2Test\bin\Debug\Lesson2.exe
+D:\ComputerScience\Solution1\Lesson2Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\ComputerScience\Solution1\Lesson2Test\bin\Debug\Lesson2.pdb
+D:\ComputerScience\Solution1\Lesson2Test\obj\Debug\Lesson2Test.csprojResolveAssemblyReference.cache
+D:\ComputerScience\Solution1\Lesson2Test\obj\Debug\Lesson2Test.dll
+D:\ComputerScience\Solution1\Lesson2Test\obj\Debug\Lesson2Test.pdb
