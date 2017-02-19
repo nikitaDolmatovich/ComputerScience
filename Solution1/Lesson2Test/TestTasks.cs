@@ -45,5 +45,20 @@ namespace Lesson2Test
                 Assert.AreEqual(result[i], testValues[i]);
             }
         }
+
+        [TestMethod]
+        public void TestBackpack()
+        {
+            Backpack instance = new Backpack();
+            Item[] items = { new Item(60, 20), new Item(100, 50), new Item(120, 30),
+                new Item(100, 50) };
+            Double testResult = 200;
+            Int32 volumeOfBackpack = 4;
+            Int32 numberOfThings = 60;
+
+            Double result = instance.CalculateTotalSum(items, numberOfThings, volumeOfBackpack);
+
+            Assert.AreEqual<Double>(result, testResult);
+        }
     }
 }

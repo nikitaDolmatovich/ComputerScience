@@ -10,21 +10,14 @@ namespace Lesson2
     {
         static void Main(string[] args)
         {
-            Sheduler instance = new Sheduler();
-            Event[] events = {new Event(0, 3), new Event(0, 1), new Event(1, 2), new Event(3, 5),
-                new Event(1, 3), new Event(1, 3), new Event(1, 3), new Event(3, 6),
-                new Event(2, 7), new Event(2, 3), new Event(2, 7), new Event(7, 9),
-                new Event(3, 5), new Event(2, 4), new Event(2, 3), new Event(3, 7),
-                new Event(4, 5), new Event(6, 7), new Event(6, 9), new Event(7, 9),
-                new Event(8, 9), new Event(4, 6), new Event(8, 10), new Event(7, 10)
-            };
+            Backpack instance = new Backpack();
+            Item[] items = { new Item(60, 20), new Item(100, 50), new Item(120, 30),
+                new Item(100, 50) };
+            Double testResult = 200;
+            Double volumeOfBackpack = 4;
+            Double numberOfThings = 60;
 
-            List<Event> result = instance.GetOptimalSheduler(events, 0, 10);
-
-            foreach(var item in result)
-            {
-                Console.WriteLine(item);
-            }
+            Console.WriteLine(instance.CalculateTotalSum(items, 60,4));
         }
     }
 }
