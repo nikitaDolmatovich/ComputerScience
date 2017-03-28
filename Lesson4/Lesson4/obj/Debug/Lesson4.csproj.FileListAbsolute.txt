@@ -1,1 +1,6 @@
 D:\ComputerScience\Lesson4\Lesson4\bin\Debug\Lesson4.exe.config
+D:\ComputerScience\Lesson4\Lesson4\obj\Debug\Lesson4.csprojResolveAssemblyReference.cache
+D:\ComputerScience\Lesson4\Lesson4\bin\Debug\Lesson4.exe
+D:\ComputerScience\Lesson4\Lesson4\bin\Debug\Lesson4.pdb
+D:\ComputerScience\Lesson4\Lesson4\obj\Debug\Lesson4.exe
+D:\ComputerScience\Lesson4\Lesson4\obj\Debug\Lesson4.pdb
