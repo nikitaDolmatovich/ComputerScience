@@ -9,7 +9,7 @@ namespace Lesson3.TaskA
     public class LeafNode : Node
     {
         private char symbol;
-        private HoffmanA hoff = new HoffmanA();
+        private static Dictionary<char, string> codes = new Dictionary<char, string>(); 
 
         public LeafNode(char symbol, int frequency) : base(frequency)
         {
@@ -18,7 +18,12 @@ namespace Lesson3.TaskA
 
         public override void FillCodes(string code)
         {
-            hoff.Codes.Add(this.symbol, code);
+            codes.Add(this.symbol, code);
+        }
+
+        public static Dictionary<char,string> GetCodes()
+        {
+            return codes;
         }
     }
 }
