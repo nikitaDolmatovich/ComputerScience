@@ -13,16 +13,13 @@ namespace Lesson4
             if (list.Count <= 1)
                 return new Tuple<int, List<int>>(0, list);
 
-            // divide
             int middle = list.Count / 2;
             var leftList = list.GetRange(0, middle);
             var rightList = list.GetRange(middle, list.Count - leftList.Count);
 
-            // process recursively
             Tuple<int, List<int>> leftResult = SortAndCount(leftList);
             Tuple<int, List<int>> rightResult = SortAndCount(rightList);
 
-            // merge
             Tuple<int, List<int>> mergeResult = MergeAndCount(leftResult.Item2, rightResult.Item2);
 
             return new Tuple<int, List<int>>(mergeResult.Item1,
@@ -49,8 +46,7 @@ namespace Lesson4
                     inversions += leftList.Count - i;
                 }
             }
-
-            // we still have values in one of lists 
+ 
             if (i < leftList.Count)
                 outputList.AddRange(leftList.GetRange(i, leftList.Count - i));
             else if (j < rightList.Count)
