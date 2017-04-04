@@ -21,6 +21,8 @@ namespace Lesson5
         {
             if (Stop > that.Stop) return 1;
             else if (Stop < that.Stop) return -1;
+            else if (Start > that.Start) return 1;
+            else if (Start < that.Start) return -1;
             return 0;
         }
     }
