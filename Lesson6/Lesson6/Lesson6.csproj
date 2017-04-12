@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="A_LIS.cs" />
     <Compile Include="B_LIS.cs" />
+    <Compile Include="C_LIS.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
