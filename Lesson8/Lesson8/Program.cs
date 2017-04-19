@@ -13,6 +13,10 @@ namespace Lesson8
             Console.WriteLine("First task");
             Console.WriteLine(A_EditDist.GetDistanceEdinting("ab", "ab"));
             Console.WriteLine(A_EditDist.GetDistanceEdinting("short", "ports"));
+
+            Console.WriteLine("Second Task");
+            Console.WriteLine(B_EditDist.GetDistanceEdinting("ab", "ab"));
+            Console.WriteLine(B_EditDist.GetDistanceEdinting("short", "ports"));
         }
     }
 }
