@@ -1,0 +1,6 @@
+D:\ComputerScience\Lesson8\Lesson8\bin\Debug\Lesson8.exe.config
+D:\ComputerScience\Lesson8\Lesson8\bin\Debug\Lesson8.exe
+D:\ComputerScience\Lesson8\Lesson8\bin\Debug\Lesson8.pdb
+D:\ComputerScience\Lesson8\Lesson8\obj\Debug\Lesson8.csprojResolveAssemblyReference.cache
+D:\ComputerScience\Lesson8\Lesson8\obj\Debug\Lesson8.exe
+D:\ComputerScience\Lesson8\Lesson8\obj\Debug\Lesson8.pdb

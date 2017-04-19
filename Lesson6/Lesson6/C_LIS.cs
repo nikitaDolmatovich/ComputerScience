@@ -62,6 +62,7 @@ namespace Lesson6
         public static int GetSIze(int[] array)
         {
             return GetLengthOfLongNotUpSubSeq(array);
+
         }
     }
 }
