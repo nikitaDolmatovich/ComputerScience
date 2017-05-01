@@ -17,6 +17,10 @@ namespace Lesson9
             Console.WriteLine("Second task");
             int weight_b = Knapsack_B.GetMaxWeight(10, 3, new int[] { 1, 4, 8 });
             Console.WriteLine("Weight of gold = {0}", weight_b);
+
+            Console.WriteLine("Third task");
+            int count = Stairs.GetMaxSum(2, new int[] { 1, 2 });
+            Console.WriteLine("Count = {0}", count);
         }
     }
 }
