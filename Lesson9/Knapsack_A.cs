@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lesson9
 {
+
     public static class Knapsack_A
     {
         public static int GetMaxWeight(int weight, int number, int[] gold)
